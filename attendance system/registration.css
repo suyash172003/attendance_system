@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("imp10.webp");
+    background-size: cover;
+
+
+
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin:10px;
+    border:none;
+    font-size:20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    background: transparent;
+    color: brown;
+
+
+}
+button{
+    margin-top: 10px;
+    width:350px;
+    height :40px;
+    font-size: 20px;
+    background-color: blue;
+    border:none;
+    color:white;
+}
+button:hover{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+
+
+}
+.form h1{
+    margin-bottom: 30px;
+    color:#fff;
+}
+::placeholder{
+    color:black;
+
+}

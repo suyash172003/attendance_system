@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+ body{
+    height:100vh;
+    background-image:url("notice.webp") ;
+ }
+
+.notices p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    background-color:rgba(0,0,0,0.5) ;
+    
+
+}
+.us{
+    padding-top: 50px;
+}
+.us a{
+    padding-left: 100px;
+    text-decoration: none;
+    text-align: center;
+}
